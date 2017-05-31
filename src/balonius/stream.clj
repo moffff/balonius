@@ -50,7 +50,7 @@
   values will be helpful."
   [& [opts]]
   (wamp/connect!
-   (merge {:uri   "wss://api.poloniex.com"
+   (merge {:uri   "wss://api2.poloniex.com"
            :realm "realm1"} opts)))
 
 (defn connect!!
